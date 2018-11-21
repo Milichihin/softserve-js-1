@@ -17,7 +17,7 @@ if (Number.isNaN(coefficientC)) {
 }
 
 const discriminant = solveDisc (coefficientA, coefficientB, coefficientC);
-alert ("solve of the discriminant = " + discriminant)
+alert ("solve of the discriminant D = " + discriminant)
 function solveDisc (a, b, c) {
     return b*b-4*a*c;
 }
